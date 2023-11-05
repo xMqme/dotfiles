@@ -1,0 +1,50 @@
+# See how to configure Vinegar on the documentation website:
+# https://vinegarhq.github.io/Configuration
+
+
+
+[global]
+dxvk = true
+
+
+[player]
+renderer = "D3D11"
+#launcher = "gamemoderun gamescope -W 1920 -H 1080 -w 1920 -h 1080 --force-windows-fullscreen --immediate-flips --force-grab-cursor -f --"
+#for dxvk
+
+# launcher = "gamemoderun gamescope -W 1920 -H 1080 -w 1920 -h 1080 --immediate-flips --force-grab-cursor -f --"
+#for vulkan
+
+#launcher = "gamemoderun gamescope --immediate-flips --force-grab-cursor -f"
+
+#launcher = "gamemoderun"
+
+# dxvk = false
+#dxvk = true
+
+# renderer = "Vulkan"
+#renderer = "D3D11"
+
+#forced_version = "version-57e2dd886e0e42a5"
+
+# channel = "zavatarteam2"
+
+#log = false
+
+# [player.env]
+# MANGOHUD = "1"
+# WINEFSYNC = "1"
+
+# [player.fflags]
+# FFlagHandleAltEnterFullscreenManually = true
+# DFIntTaskSchedulerTargetFps = 999
+# true for 21 bars, false for 10 bars; in graphics quality
+# FFlagFixGraphicsQuality = true
+
+# these should make roblox perform better but will likely make lighting look bad
+# DFFlagDebugRenderForceTechnologyVoxel = false # Voxel
+# FFlagDebugForceFutureIsBrightPhase2 = false # ShadowMap
+# FFlagDebugForceFutureIsBrightPhase = true # Future
+
+# [splash]
+# enabled=false
